@@ -5,7 +5,7 @@ import { navLinks, navIcons } from '@constants';
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className='gap-5'>
             <div>
                 <img src="/images/logo.svg" />
                 <p className="font-bold">Raees's Portfolio</p>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     {
                         navIcons.map(({ id, img }) => (
                             <li key={id}>
-                                <img src={img} alt={`icon-${id}`} className='icon-hover'/>
+                                <img src={img} alt={`icon-${id}`} className='icon-hover' />
                             </li>
                         ))
                     }
@@ -34,4 +34,5 @@ const Navbar = () => {
         </nav>
     )
 }
+
 export default Navbar
