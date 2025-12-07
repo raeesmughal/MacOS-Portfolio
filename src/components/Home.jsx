@@ -27,9 +27,8 @@ const Home = () => {
                     <img src="/images/folder.png" alt={project.name} />
                     <p>{project.name}</p>
                 </li>
-            ))};
+            ))}
         </ul>
-    </section>
-}
+    </section>}
 
 export default Home
