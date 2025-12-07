@@ -77,25 +77,25 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "Nov 28, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "The React Playbook : What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://react-foundations.hashnode.dev/",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "Nov 28, 2025",
+    title: "The Definitive Breakdown of JavaScript Logic and Core Concepts",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://javascript-foundations-raeesmughal.hashnode.dev/",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    date: "Nov 29, 2025",
+    title: "The Essential Breakdown of HTML’s Foundations and Page Structure",
+    image: "/images/blog3.jpg",
+    link: "https://html-foundations.hashnode.dev/",
   },
 ];
 
@@ -122,35 +122,34 @@ const techStack = [
   },
 ];
 
-
 const socials = [
   {
     id: 1,
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/raeesmughal",
   },
   {
     id: 2,
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://raeesmughal.bio.link/",
   },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/raeesmughl",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/raeesmughal/",
   },
 ];
 
@@ -189,7 +188,7 @@ const gallery = [
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/Raees1.png",
   },
   {
     id: 3,
@@ -197,7 +196,7 @@ const gallery = [
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/gal4.jpg",
   },
 ];
 
@@ -222,7 +221,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "GPT-3 APP UI",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -230,30 +229,29 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "GPT-3 Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "The GPT-3 UI is a visually striking, futuristic landing page designed to capture the essence of next-generation Artificial Intelligence",
+            "Moving away from standard corporate layouts, it features a rich dark-mode aesthetic with vibrant gradients, clean typography, and a fully responsive grid that adapts to any screen size.",
+            "Think of it as a digital architectural model—it captures the visual complexity and structural integrity of a high-tech platform, focusing purely on the frontend presentation",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "gpt3.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://raeesmughal-gpt3.netlify.app",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "gpt3.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -262,11 +260,11 @@ const WORK_LOCATION = {
         },
         {
           id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
+          name: "Code",
+          icon: "/images/github.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/raeesmughal/01-gpt3-projects-react-jsMastery",
           position: "top-60 right-20",
         },
       ],
@@ -275,38 +273,36 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Gericht Restaurant UI",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-7",
+      windowPosition: "top-[25vh] left-7",
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "GERICHT Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "The Gericht UI is a visually rich, premium landing page that captures the elegance and luxury of a high-end fine dining establishment.",
+            "It delivers an immersive, sophisticated atmosphere through a dark, textured background, classic typography, and gold-accented styling. Every section—from the menu to the 'Chef's Words'—is presented with the polish expected of a five-star venue.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "gericht.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://raeesmughal-gericht.netlify.app/",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "gericht.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -315,11 +311,11 @@ const WORK_LOCATION = {
         },
         {
           id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
+          name: "Code",
+          icon: "/images/github.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/raeesmughal/Gericht-projects-react-jsMastery",
           position: "top-60 left-5",
         },
       ],
@@ -328,38 +324,37 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Glint App UI",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[33vh] left-7",
+      windowPosition: "top-[60vh] left-7",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "GLINT Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "The Glint UI is a dynamic and minimalist landing page for a creative agency, showcasing a brand focused on modernity and digital excellence.",
+            "It uses bold, stark contrast (black, white, and electric green) to guide the user's eye, featuring seamless full-width sections, a clean gallery grid, and engaging counter components.",
+            "Imagine a high-end, contemporary art gallery—the space is designed to be minimal and clean, ensuring the focus remains entirely on the high-quality content and portfolio pieces.",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "glint-colorlib.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://glint-colorlib.netlify.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "homepage.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -368,11 +363,11 @@ const WORK_LOCATION = {
         },
         {
           id: 5,
-          name: "Design.fig",
-          icon: "/images/plain.png",
+          name: "Code",
+          icon: "/images/github.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "https://github.com/raeesmughal/GLINT-clone-weeklyProject-2",
           position: "top-60 right-20",
         },
       ],
@@ -389,12 +384,12 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "me-bnw.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/Raees2.jpg",
     },
     {
       id: 2,
@@ -403,16 +398,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/Raees4.jpg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "office-me.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/Raees5.jpg",
     },
     {
       id: 4,
@@ -421,13 +416,12 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "txt",
       position: "top-60 left-5",
-      subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      subtitle: "✨ Meet the Developer and Designer",
+      image: "/images/Raees1.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I'm Raees, a beginner/inter-level Full Stack Developer specializing in the MERN stack (React, Node.js). I enjoy building sleek, interactive websites, with a portfolio of over 10 personal projects under my belt",
+        "My true passion is UX/UI design. I believe a seamless user experience and stunning interface are what truly make an application great—and I'm more driven by design than by the coding itself.",
+        "When I'm not developing, you'll find me meticulously adjusting margins and contemplating whether I really need another Figma plugin (the answer is always yes)."
       ],
     },
   ],
@@ -446,8 +440,6 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
-      // you can add `href` if you want to open a hosted resume
-      // href: "/your/resume/path.pdf",
     },
   ],
 };
@@ -461,7 +453,7 @@ const TRASH_LOCATION = {
   children: [
     {
       id: 1,
-      name: "trash1.png",
+      name: "portfolio-2024.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
@@ -470,7 +462,7 @@ const TRASH_LOCATION = {
     },
     {
       id: 2,
-      name: "trash2.png",
+      name: "typicalUI.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
